@@ -1,0 +1,12 @@
+a {
+  color: white;
+}
+button {
+  background-color: var(--brand-primary);
+  height: 50px;
+}
+
+.default_filled {
+  background-color: var(--brand-primary);
+  color: white;
+}

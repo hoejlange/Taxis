@@ -1,0 +1,5 @@
+Title: "A simple blockquote component"
+status: wip
+context:
+  text: "Blockquotes are gay"
+  citation: "Mr Mum"

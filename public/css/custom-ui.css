@@ -1,0 +1,11 @@
+.Header {
+  background: #536076;
+}
+.Header-title {
+  color: #536076;
+  background-image: url('/logo.svg');
+  background-repeat: no-repeat;
+  padding: 5px;
+  padding-left: 30px;  /* width of the image plus a little extra padding */
+  display: block;  /* may not need this, but I've found I do */
+}
