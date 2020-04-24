@@ -1,5 +1,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+/* atoms */
+@import "./atoms/blockquote.css";
+@import "./atoms/default.css";
 
+/* molecules */
+/* @import "./molecules/_name_.css"; */
+
+/* organisms */
+/* @import "./organisms/_name_.css"; */
 :root {
   --brand-primary: #497B7B;
   --brand-secondary: #FFFFFF;
@@ -13,68 +21,64 @@ a {
   text-decoration: none;
 }
 
-/* ---------- default button filled ---------- */
-.default_filled {
-  background-color: #497B7B;
-  height: 32px;
-  border-radius: 12px;
-  padding: 8px 16px;
-  border-color: #497B7B;
-}
-
-.default_filled a {
-  color: white;
-}
-
-.default_filled:hover {
-  background-color: #A4BDBD;
-  border-color: #A4BDBD;
-}
-
-.default_focus {
-  background-color: #3A6262;
-  border-color: #3A6262;
-}
-
-.default_filled:active {
-  background-color: #FDA472;
-  border-color: #FDA472;
-
-}
-
-
-/* ---------- default button outlined ---------- */
-.default_outlined {
-  background-color: transparent;
-  height: 32px;
-  border-radius: 12px;
-  padding: 8px 16px;
-  border-color: #D1D3D4;
-}
-
-.default_outlined a {
-  color: #555555;
-}
-
-/* ---------- default button transparent ---------- */
-.default_transparent {
-  background-color: transparent;
+/* ---------- default styling ---------- */
+.btn-default {
   height: 32px;
   border-radius: 12px;
   padding: 8px 16px;
   border-color: transparent;
 }
 
-.default_transparent a {
-  color: #497B7B;
+.filled {
+  background-color: #497B7B;
 }
 
-/* atoms */
-@import "./atoms/blockquote.css";
-@import "./atoms/default.css";
+.filled a {
+  color: white;
+}
 
-/* molecules */
-/* @import "./molecules/_name_.css"; */
+.filled:hover {
+  background-color: #A4BDBD;
+}
 
-/* organisms */
-/* @import "./organisms/_name_.css"; */
+.filled:focus {
+  background-color: #3A6262;
+}
+
+.filled:active {
+  background-color: #FDA472;
+}
+
+
+/* ---------- default button outlined ---------- */
+.outlined {
+  background-color: transparent;
+  border-color: #D1D3D4;
+}
+
+.outlined a {
+  color: #555555;
+}
+
+.outlined:hover {
+  background-color: Transparent;
+  border-color: #497B7B;
+}
+
+.outlined:focus {
+  border-color: #3A6262;
+}
+
+.outlined:active {
+  background-color: #497B7B;
+}
+
+/* ---------- default button transparent ---------- */
+.transparent {
+  background-color: transparent;
+  padding: 8px 0px;
+}
+
+.transparent a {
+  color: #497B7B;
+}
