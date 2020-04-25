@@ -1,1 +1,61 @@
+/* ---------- default styling ---------- */
+.btn-default {
+  height: 32px;
+  border-radius: 12px;
+  padding: 8px 16px;
+  border-color: transparent;
+}
 
+.filled {
+  background-color: var(--brand-primary);
+}
+
+.filled a {
+  color: white;
+}
+
+.filled:hover {
+  background-color: #A4BDBD;
+}
+
+.filled:focus {
+  background-color: #3A6262;
+}
+
+.filled:active {
+  background-color: #FDA472;
+}
+
+
+/* ---------- default button outlined ---------- */
+.outlined {
+  background-color: transparent;
+  border-color: #D1D3D4;
+}
+
+.outlined a {
+  color: #555555;
+}
+
+.outlined:hover {
+  background-color: Transparent;
+  border-color: #497B7B;
+}
+
+.outlined:focus {
+  border-color: #3A6262;
+}
+
+.outlined:active {
+  background-color: #497B7B;
+}
+
+/* ---------- default button transparent ---------- */
+.transparent {
+  background-color: transparent;
+  padding: 8px 0px;
+}
+
+.transparent a {
+  color: #497B7B;
+}

@@ -1,0 +1,20 @@
+.icon-wrapper {
+
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+.arrow-right {
+  background-image: url("/icons/arrow-right.svg");
+}
+
+.arrow-left {
+  background-image: url("/icons/arrow-left.svg");
+}
+
+.arrow-up {
+  background-image: url("/icons/arrow-up.svg");
+}

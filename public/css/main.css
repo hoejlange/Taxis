@@ -1,84 +1,49 @@
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 /* atoms */
-@import "./atoms/blockquote.css";
-@import "./atoms/default.css";
-
+@import "/css/atoms/blockquote.css";
+@import "/css/atoms/default.css";
+@import "/css/atoms/icons.css";
 /* molecules */
 /* @import "./molecules/_name_.css"; */
 
 /* organisms */
 /* @import "./organisms/_name_.css"; */
 :root {
+/* Colors */
   --brand-primary: #497B7B;
-  --brand-secondary: #FFFFFF;
+  --brand-secondary: #FDA472;
+  --brand-tertiary: #F3EEE9;
+
+  --brand-primary-light: #A4BDBD;
+  --brand-secondary-light: #FED1B9;
+  --brand-tertiary-light: #F9F6F4;
+
+  --brand-primary-dark: #3A6262;
+  --brand-secondary-darkt: #CB835B;
+  --brand-tertiary-dark: #C3BFBB;
+
+  --grayscale-10: #E9EAEA;
+  --grayscale-20: #D1D3D4;
+  --grayscale-40: #A4A8A9;
+  --grayscale-60: #767C7E;
+  --grayscale-80: #495153;
+  --grayscale-100: #1B2528;
+
+  --utility-danger: #B25E5B;
+  --utility-warning: #CC9C40;
+  --utility-success: #42835B;
+  --utility-info: #4C7895;
 }
 
 body {
-  font-family: "open sans", san-serif;
+  font-family: "open sans", sans-serif;
 }
 
 a {
   text-decoration: none;
 }
 
-/* ---------- default styling ---------- */
-.btn-default {
-  height: 32px;
-  border-radius: 12px;
-  padding: 8px 16px;
-  border-color: transparent;
-}
-
-.filled {
-  background-color: #497B7B;
-}
-
-.filled a {
-  color: white;
-}
-
-.filled:hover {
-  background-color: #A4BDBD;
-}
-
-.filled:focus {
-  background-color: #3A6262;
-}
-
-.filled:active {
-  background-color: #FDA472;
-}
-
-
-/* ---------- default button outlined ---------- */
-.outlined {
-  background-color: transparent;
-  border-color: #D1D3D4;
-}
-
-.outlined a {
-  color: #555555;
-}
-
-.outlined:hover {
-  background-color: Transparent;
-  border-color: #497B7B;
-}
-
-.outlined:focus {
-  border-color: #3A6262;
-}
-
-.outlined:active {
-  background-color: #497B7B;
-}
-
-/* ---------- default button transparent ---------- */
-.transparent {
-  background-color: transparent;
-  padding: 8px 0px;
-}
-
-.transparent a {
-  color: #497B7B;
+/* Text styles */
+.text-p-xs-normal {
+  font-size: 10px;
+  text-align: left;
 }

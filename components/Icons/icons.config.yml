@@ -1,9 +1,1 @@
 Title: "Icons"
-context:
-  arrow-left:
-  icon-name: "Arrow left"
-  icon-file: "/icons/arrow-left.svg"
-
-arrow-right:
-  icon-file: "/icons/arrow-right.svg"
-  icon-name: "Arrow right"
