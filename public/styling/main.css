@@ -1,7 +1,7 @@
 /* atoms */
-@import "/css/atoms/blockquote.css";
-@import "/css/atoms/buttons.css";
-@import "/css/atoms/icons.css";
+@import "/styling/atoms/blockquote.css";
+@import "/styling/atoms/buttons.css";
+@import "/styling/atoms/icons.css";
 /* molecules */
 /* @import "./molecules/_name_.css"; */
 

@@ -42,7 +42,7 @@ const mandelbrot = require('@frctl/mandelbrot'); // require the Mandelbrot theme
 // create a new instance with custom config options
 const myCustomisedTheme = mandelbrot({
     skin: "navy",
-    styles: ["default", "/css/custom-ui.css"],
+    styles: ["default", "/styling/custom-ui.css"],
     "static": {
       mount: "public", // Theme asset URLs would now look something like: '/public/path/to/file.js'
   }
