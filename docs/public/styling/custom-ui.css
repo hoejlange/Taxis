@@ -1,5 +1,6 @@
 .Header {
   background: #536076;
+  background-color: #536076;
 }
 .Header-title {
 background-image: url(/logo.svg);
@@ -12,4 +13,8 @@ line-height: 2.33333;
 
 .Header-title:link, .Header-title:visited {
   color: transparent;
+}
+
+[dir=ltr] .Header-button {
+    border-right: none;
 }
