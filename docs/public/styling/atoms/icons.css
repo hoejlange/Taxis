@@ -1,7 +1,7 @@
 .icon-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .icon-wrapper {
@@ -17,7 +17,7 @@
 
 .icon-arrow-up {
   background-color: #767C7E;
-   -webkit-mask-image: url('/icons/arrow-up.svg');
+   -webkit-mask-image: url('public/icons/arrow-up.svg');
    mask-image: url('/icons/arrow-up.svg');
 }
 
