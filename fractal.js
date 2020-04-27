@@ -29,7 +29,7 @@ fractal.components.set('default.preview','@preview');
 /*
  * Tell Fractal where to look for documentation pages.
  */
-fractal.docs.set('path', path.join(__dirname, 'docs'));
+fractal.docs.set('path', path.join(__dirname, 'documentation'));
 
 /*
  * Tell the Fractal web preview plugin where to look for static assets.
@@ -50,3 +50,5 @@ const myCustomisedTheme = mandelbrot({
 });
 
 fractal.web.theme(myCustomisedTheme); // tell Fractal to use the configured theme by default
+
+fractal.web.set('builder.dest', __dirname + '/docs');
