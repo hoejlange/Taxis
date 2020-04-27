@@ -1,15 +1,23 @@
 /* ---------- Text button styling ---------- */
-.btn-text {
+.btn {
   height: 32px;
+  width: fit-content;
   border-radius: 12px;
   padding: 8px 16px;
   border-color: transparent;
+
 }
 
-.btn-filled a {
-  color: white;
+.btn-icon {
+  height: 32px;
+  width: fit-content;
+  border-radius: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-color: transparent;
 }
 
+/* ---------- Text button filled ---------- */
 .btn-filled:hover {
   background-color: #A4BDBD;
 }
@@ -22,16 +30,7 @@
   background-color: #FDA472;
 }
 
-
-/* ---------- default button outlined ---------- */
-.btn-outlined {
-  background-color: transparent;
-  border-color: #D1D3D4;
-}
-
-.btn-outlined a {
-  color: #555555;
-}
+/* ---------- Text button outlined ---------- */
 
 .btn-outlined:hover {
   background-color: Transparent;
@@ -46,12 +45,7 @@
   background-color: #497B7B;
 }
 
-/* ---------- default button transparent ---------- */
+/* ---------- text button transparent ---------- */
 .btn-transparent {
-  background-color: transparent;
   padding: 8px 0px;
-}
-
-.btn-transparent a {
-  color: #497B7B;
 }

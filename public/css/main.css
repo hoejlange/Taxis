@@ -16,23 +16,32 @@ body {
 
 a {
   text-decoration: none;
-  color: #333333;
+
 }
 
 p {
   color: #333333;
 }
 
-.text-primary {
-  color: #497B7B;
+
+
+/* positions */
+.float-right {
+  float: right;
 }
 
-.text-light {
-  color: #FFFFFF;
+.float-left {
+  float: left;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* COLOR STYLES */
 /* Backgrounds */
+
 .transparent {
   background-color: transparent;
 }
@@ -114,84 +123,98 @@ p {
 }
 
 /* Borders */
-.transparent {
+.border-transparent {
   border-color: transparent;
 }
 
-.primary {
+.border-primary {
   border-color: #497B7B;
 }
 
-.primary-dark {
+.border-primary-dark {
   border-color: #3A6262;;
 }
 
-.primary-light {
+.border-primary-light {
   border-color: #A4BDBD;
 }
 
-.secondary {
+.border-secondary {
   border-color: #FDA472;
 }
 
-.secondary-dark {
+.border-secondary-dark {
   border-color: #CB835B;
 }
 
-.secondary-light {
+.border-secondary-light {
   border-color: #FED1B9;
 }
 
-.tertiary {
+.border-tertiary {
   border-color: #F3EEE9;
 }
 
-.tertiary-dark {
+.border-tertiary-dark {
   border-color: #C3BFBB;
 }
 
-.tertiary-light {
+.border-tertiary-light {
   border-color: #F9F6F4;
 }
 
-.gray-100 {
+.border-gray-100 {
   border-color: #1B2528;
 }
 
-.gray-80 {
+.border-gray-80 {
   border-color: #495153;
 }
 
-.gray-60 {
+.border-gray-60 {
   border-color: #767C7E;
 }
 
-.gray-40 {
+.border-gray-40 {
   border-color: #A4A8A9;
 }
 
-.gray-20 {
+.border-gray-20 {
   border-color: #D1D3D4;
 }
 
-.gray-10 {
+.border-gray-10 {
   border-color: #E9EAEA;
 }
 
-.danger-color {
+.border-danger-color {
   border-color: #B25E5B;
 }
 
-.warning-color {
+.border-warning-color {
   border-color: #CC9C40;
 }
 
-.success-color {
+.border-success-color {
   border-color: #42835B;
 }
 
-.info-color {
+.border-info-color {
   border-color: #4C7895;
+}
+
+/* Text colors */
+
+.text-dark {
+  color: #333333;
+}
+
+.text-primary {
+  color: #497B7B;
+}
+
+.text-light {
+  color: #FFFFFF;
 }
 
 /* Text styles */
@@ -203,15 +226,11 @@ p {
 .text-button-normal {
   font-size: 10px;
   text-align: left;
-  font-weight:
+font-weight: 600;
 }
 
 .text-button-centered {
   font-size: 10px;
   text-align: center;
-}
-
-.text-button-primary-centered {
-  font-size: 10px;
-  text-align: center;
+  font-weight: 600;
 }
