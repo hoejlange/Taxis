@@ -1,11 +1,16 @@
 .icon-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding-top: 20px;
 }
 
 .icon-wrapper {
-
+padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 .icon {
