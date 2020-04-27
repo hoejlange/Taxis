@@ -14,7 +14,3 @@ line-height: 2.33333;
 .Header-title:link, .Header-title:visited {
   color: transparent;
 }
-
-[dir=ltr] .Header-button {
-    border-right: none;
-}
