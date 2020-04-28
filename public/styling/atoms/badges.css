@@ -1,0 +1,19 @@
+.badge-large {
+  height: 24px;
+  width: fit-content;
+  border-radius: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-color: transparent;
+  align-content: center;
+}
+
+.badge-small {
+  height: 18px;
+  width: fit-content;
+  border-radius: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-color: transparent;
+  align-content: center;
+}

@@ -1,4 +1,7 @@
+
+
 /* atoms */
+@import "/styling/atoms/badges.css";
 @import "/styling/atoms/blockquote.css";
 @import "/styling/atoms/buttons.css";
 @import "/styling/atoms/icons.css";
@@ -7,9 +10,15 @@
 
 /* organisms */
 /* @import "./organisms/_name_.css"; */
+:root {
+  --primary: #497B7B;
+  --primary-light: #A4BDBD;
+  --primary-dark: #3A6262;
+  --secondary: #FDA472;
 
-
-
+  --gray-10: #E9EAEA;
+  --gray-20: #D1D3D4
+}
 body {
   font-family: "open sans", sans-serif;
 }
@@ -21,6 +30,11 @@ a {
 
 p {
   color: #333333;
+}
+
+.margin {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 
@@ -39,6 +53,7 @@ p {
   align-items: center;
 }
 
+
 /* COLOR STYLES */
 /* Backgrounds */
 
@@ -51,7 +66,7 @@ p {
 }
 
 .primary-dark {
-  background-color: #3A6262;;
+  background-color: #3A6262;
 }
 
 .primary-light {
@@ -106,6 +121,10 @@ p {
   background-color: #E9EAEA;
 }
 
+.white {
+  background-color: #FFFFFF;
+}
+
 .danger-color {
   background-color: #B25E5B;
 }
@@ -122,86 +141,90 @@ p {
   background-color: #4C7895;
 }
 
-/* Borders */
+
+
+/* BORDERS */
 .border-transparent {
-  border-color: transparent;
+  border: 1px solid transparent;
 }
 
 .border-primary {
-  border-color: #497B7B;
+  border: 1px solid #497B7B;
 }
 
 .border-primary-dark {
-  border-color: #3A6262;;
+  border: 1px solid #3A6262;
 }
 
 .border-primary-light {
-  border-color: #A4BDBD;
+  border: 1px solid #A4BDBD;
 }
 
 .border-secondary {
-  border-color: #FDA472;
+  border: 1px solid #FDA472;
 }
 
 .border-secondary-dark {
-  border-color: #CB835B;
+  border: 1px solid #CB835B;
 }
 
 .border-secondary-light {
-  border-color: #FED1B9;
+  border: 1px solid #FED1B9;
 }
 
 .border-tertiary {
-  border-color: #F3EEE9;
+  border: 1px solid #F3EEE9;
 }
 
 .border-tertiary-dark {
-  border-color: #C3BFBB;
+  border: 1px solid #C3BFBB;
 }
 
 .border-tertiary-light {
-  border-color: #F9F6F4;
+  border: 1px solid #F9F6F4;
 }
 
 .border-gray-100 {
-  border-color: #1B2528;
+  border: 1px solid #1B2528;
 }
 
 .border-gray-80 {
-  border-color: #495153;
+  border: 1px solid #495153;
 }
 
 .border-gray-60 {
-  border-color: #767C7E;
+  border: 1px solid #767C7E;
 }
 
 .border-gray-40 {
-  border-color: #A4A8A9;
+  border: 1px solid #A4A8A9;
 }
 
 .border-gray-20 {
-  border-color: #D1D3D4;
+  border: 1px solid #D1D3D4;
 }
 
 .border-gray-10 {
-  border-color: #E9EAEA;
+  border: 1px solid #E9EAEA;
 }
 
 .border-danger-color {
-  border-color: #B25E5B;
+  border: 1px solid #B25E5B;
 }
 
 .border-warning-color {
-  border-color: #CC9C40;
+  border: 1px solid #CC9C40;
 }
 
 .border-success-color {
-  border-color: #42835B;
+  border: 1px solid #42835B;
 }
 
 .border-info-color {
-  border-color: #4C7895;
+  border: 1px solid #4C7895;
 }
+
+
 
 /* Text colors */
 
@@ -221,6 +244,12 @@ p {
 .text-p-xs-normal {
   font-size: 10px;
   text-align: left;
+}
+
+.text-p-s-normal {
+  font-size: 12px;
+  text-align: left;
+  line-height: 1.5;
 }
 
 .text-button-normal {

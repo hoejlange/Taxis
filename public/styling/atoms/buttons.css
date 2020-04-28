@@ -1,11 +1,10 @@
+
+
 /* ---------- Text button styling ---------- */
 .button-container {
   margin-top: 50px;
-  width: 80%;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-
 }
 
 .btn {
@@ -14,47 +13,55 @@
   border-radius: 12px;
   padding-left: 16px;
   padding-right: 16px;
-  border-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.btn-icon {
-  height: 32px;
-  width: fit-content;
-  border-radius: 12px;
-  padding-left: 8px;
-  padding-right: 8px;
-  border-color: transparent;
-}
 
 /* ---------- Text button filled ---------- */
-.btn-filled:hover {
-  background-color: #A4BDBD;
+.filled-btn-states:hover {
+  background-color: var(--primary-light);
 }
 
-.btn-filled:focus {
-  background-color: #3A6262;
+.filled-btn-states:active {
+  border: 1px solid var(--secondary);
 }
 
-.fbtn-illed:active {
-  background-color: #FDA472;
+.filled-btn-states:focus {
+  background-color: var(--primary-dark);
 }
 
 /* ---------- Text button outlined ---------- */
 
-.btn-outlined:hover {
-  background-color: Transparent;
-  border-color: #497B7B;
+.outlined-btn-states:hover {
+border: 1px solid var(--primary);
 }
 
-.btn-outlined:focus {
-  border-color: #3A6262;
+.outlined-btn-states:active {
+  border: 1px solid var(--secondary);
+
 }
 
-.btn-outlined:active {
-  background-color: #497B7B;
+.outlined-btn-states:focus {
+  border: 1px solid var(--primary);
 }
+
 
 /* ---------- text button transparent ---------- */
 .btn-transparent {
   padding: 8px 0px;
+}
+
+.transparent-btn-states:hover {
+  background-color: var(--gray-10);
+}
+
+.transparent-btn-states:active {
+  border: 1px solid var(--secondary);
+}
+
+.transparent-btn-states:focus {
+background-color: var(--gray-20);
+
 }
