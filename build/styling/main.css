@@ -1,12 +1,12 @@
 /* particles */
-@import url('/styling/particles/colors.css');
-@import url('/styling/particles/typography.css');
+@import url('./particles/colors.css');
+@import url('./particles/typography.css');
 
 /* atoms */
-@import url('/styling/atoms/badges.css');
-@import url('/styling/atoms/blockquote.css');
-@import url('/styling/atoms/buttons.css');
-@import url('/styling/atoms/icons.css');
+@import url('./atoms/badges.css');
+@import url('./atoms/blockquote.css');
+@import url('./atoms/buttons.css');
+@import url('./atoms/icons.css');
 
 /* molecules */
 /* @import "./molecules/_name_.css"; */

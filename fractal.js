@@ -19,7 +19,7 @@ fractal.set('project.title', 'Taxis');
  * Tell Fractal where to look for components.
  fractal.components.set('path', path.join(__dirname, 'components'));
  */
- fractal.components.set('path', __dirname + '/components');
+ fractal.components.set('path', path.join(__dirname, '/components'));
 
 /*
  * Tell Fractal where to look for layout.
@@ -36,7 +36,7 @@ fractal.docs.set('path', path.join(__dirname, 'documentation'));
  fractal.web.set('static.path', path.join(__dirname, 'public'));
 
  */
- fractal.web.set('static.path', __dirname + '/public');
+ fractal.web.set('static.path', path.join(__dirname, '/public'));
 
 
 const mandelbrot = require('@frctl/mandelbrot'); // require the Mandelbrot theme module
@@ -44,9 +44,9 @@ const mandelbrot = require('@frctl/mandelbrot'); // require the Mandelbrot theme
 // create a new instance with custom config options
 const myCustomisedTheme = mandelbrot({
     skin: "navy",
-    styles: ["default", "/styling/custom-ui.css"],
+    styles: ["default",  "/styling/custom-ui.css"],
     "static": {
-      mount: "public", // Theme asset URLs would now look something like: '/public/path/to/file.js'
+      mount:  path.join(__dirname, "public"), // Theme asset URLs would now look something like: '/public/path/to/file.js'
   }
     // any other theme configuration values here
 });
