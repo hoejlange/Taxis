@@ -33,9 +33,10 @@ fractal.docs.set('path', path.join(__dirname, 'documentation'));
 
 /*
  * Tell the Fractal web preview plugin where to look for static assets.
- fractal.web.set('static.path', path.join(__dirname, 'public'));
+ fractal.web.set('static.path', __dirname + '/public');
  */
-fractal.web.set('static.path', __dirname + '/public');
+ fractal.web.set('static.path', path.join(__dirname, 'public'));
+
 
 const mandelbrot = require('@frctl/mandelbrot'); // require the Mandelbrot theme module
 
