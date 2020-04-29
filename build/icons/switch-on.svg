@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="24px" viewBox="0 0 44 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Atoms / Icons / Switch - on </title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M32.0094932,2 C37.5279241,2 42,6.4771525 42,12 L42,12 L41.9961618,12.2799645 C41.8480761,17.6745027 37.433579,22 32.0094932,22 L32.0094932,22 L11.9905068,22 C6.47207592,22 2,17.5228475 2,12 L2,12 L2.00383815,11.7200355 C2.15192392,6.32549728 6.56642096,2 11.9905068,2 L11.9905068,2 Z M31,5 C27.2145483,5 24.1309013,8.01232554 24.004059,11.7598216 L24,12 C24,15.7854517 27.0123255,18.8690987 30.7598216,18.995941 L31,19 C34.7854517,19 37.8690987,15.9876745 37.995941,12.2401784 L38,12 C38,8.13400675 34.8581267,5 31,5 Z" id="path-1"></path>
+    </defs>
+    <g id="Atoms-/-Icons-/-Switch---on-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="↳-🎨Color" fill="#497B7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

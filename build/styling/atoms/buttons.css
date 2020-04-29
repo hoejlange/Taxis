@@ -1,0 +1,126 @@
+
+
+/* ---------- Text button styling ---------- */
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  height: 32px;
+  width: fit-content;
+  border-radius: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-icon-large {
+  height: 32px;
+  width: 32px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-icon-small {
+  height: 24px;
+  width: 24px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-fab {
+  height: 32px;
+  width: 32px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+}
+
+
+.icon-left {
+  margin-left: -8px;
+}
+
+.icon-right {
+  margin-right: -8px;
+}
+
+
+/* ---------- Text button filled ---------- */
+.btn-filled {
+  background-color: var(--primary);
+  color: var(--white);
+  font-size: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.btn-filled-states:hover {
+  background-color: var(--primary-light);
+}
+
+.btn-filled-states:active {
+  border: 1px solid var(--secondary);
+}
+
+.btn-filled-states:focus {
+  background-color: var(--primary-dark);
+}
+
+/* ---------- Text button outlined ---------- */
+.btn-outlined {
+  background-color: transparent;
+  border: 1px solid var(--gray-20);
+  color: var(--primary);
+  font-size: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.btn-outlined-states:hover {
+border: 1px solid var(--primary);
+}
+
+.btn-outlined-states:active {
+  border: 1px solid var(--secondary);
+
+}
+
+.btn-outlined-states:focus {
+  border: 1px solid var(--primary);
+}
+
+
+/* ---------- text button transparent ---------- */
+.btn-transparent {
+  background-color: transparent;
+  color: var(--primary);
+  font-size: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+
+.btn-transparent-states:hover {
+  background-color: var(--gray-10);
+}
+
+.btn-transparent-states:active {
+  border: 1px solid var(--secondary);
+}
+
+.btn-transparent-states:focus {
+background-color: var(--gray-20);
+
+}

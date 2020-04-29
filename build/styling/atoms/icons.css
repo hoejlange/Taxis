@@ -1,0 +1,306 @@
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.icon-wrapper {
+padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.icon-arrow-up {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/arrow-up.svg');
+   mask-image: url('/icons/arrow-up.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-arrow-down {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/arrow-down.svg');
+   mask-image: url('/icons/arrow-down.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-arrow-right {
+  background-color: #767C7E;
+  -webkit-mask-image: url('/icons/arrow-right.svg');
+   mask-image: url('/icons/arrow-right.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-arrow-left {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/arrow-left.svg');
+   mask-image: url('/icons/arrow-left.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-checkbox-checked {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/checkbox-checked.svg');
+   mask-image: url('/icons/checkbox-checked.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-checkbox {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/checkbox.svg');
+   mask-image: url('/icons/checkbox.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-close {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/close.svg');
+   mask-image: url('/icons/close.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-dialog {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/dialog.svg');
+   mask-image: url('/icons/dialog.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-document {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/document.svg');
+   mask-image: url('/icons/document.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-documents {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/documents.svg');
+   mask-image: url('/icons/documents.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-edit {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/edit.svg');
+   mask-image: url('/icons/edit.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-filter {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/filter.svg');
+   mask-image: url('/icons/filter.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-highlight {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/highlight.svg');
+   mask-image: url('/icons/highlight.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-home {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/home.svg');
+   mask-image: url('/icons/home.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-label {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/label.svg');
+   mask-image: url('/icons/label.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-lightning {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/lightning.svg');
+   mask-image: url('/icons/lightning.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-minus {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/minus.svg');
+   mask-image: url('/icons/minus.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-overflow-horizontal {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/overflow-horizontal.svg');
+   mask-image: url('/icons/overflow-horizontal.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-overflow-vertical {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/overflow-vertical.svg');
+   mask-image: url('/icons/overflow-vertical.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-pause {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/pause.svg');
+   mask-image: url('/icons/pause.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-play {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/play.svg');
+   mask-image: url('/icons/play.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-plus {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/plus.svg');
+   mask-image: url('/icons/plus.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-profile {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/profile.svg');
+   mask-image: url('/icons/profile.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-radio-off {
+  background-color: #767C7E;
+  -webkit-mask-image: url('/icons/radio-off.svg');
+  mask-image: url('/icons/radio-off.svg');
+  height: 24px;
+  width: 24px;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
+.icon-radio-on {
+  background-color: #767C7E;
+  -webkit-mask-image: url('/icons/radio-on.svg');
+  mask-image: url('/icons/radio-on.svg');
+  height: 24px;
+  width: 24px;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
+.icon-remove {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/remove.svg');
+   mask-image: url('/icons/remove.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-search {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/search.svg');
+   mask-image: url('/icons/search.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-sort {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/sort.svg');
+   mask-image: url('/icons/sort.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}
+
+.icon-success {
+  background-color: #767C7E;
+   -webkit-mask-image: url('/icons/success.svg');
+   mask-image: url('/icons/success.svg');
+   height: 24px;
+   width: 24px;
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-position: center;
+}

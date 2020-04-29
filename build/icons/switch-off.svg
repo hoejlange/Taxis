@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="24px" viewBox="0 0 44 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Atoms / Icons / Switch - off</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Atoms-/-Icons-/-Switch---off" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M32.0094932,2 C37.5279241,2 42,6.4771525 42,12 L42,12 L41.9961618,12.2799645 C41.8480761,17.6745027 37.433579,22 32.0094932,22 L32.0094932,22 L11.9905068,22 C6.47207592,22 2,17.5228475 2,12 L2,12 L2.00383815,11.7200355 C2.15192392,6.32549728 6.56642096,2 11.9905068,2 L11.9905068,2 Z M31.9945304,3 L12.0054696,3 C7.12070005,3 3.14429622,6.88575947 3.00383944,11.7345813 L3,12 C3,16.9705627 7.03068997,21 12.0054696,21 L31.9945304,21 C36.8793,21 40.8557038,17.1142405 40.9961606,12.2654187 L41,12 C41,7.02943725 36.96931,3 31.9945304,3 Z" id="Border" fill="#497B7B"></path>
+        <rect id="Button" fill="#497B7B" x="6" y="5" width="14" height="14" rx="7"></rect>
+    </g>
+</svg>
