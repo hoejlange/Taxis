@@ -17,10 +17,10 @@ fractal.set('project.title', 'Taxis');
 
 /*
  * Tell Fractal where to look for components.
-  fractal.components.set('path', path.join(__dirname, 'components'));
+  fractal.components.set('path', __dirname + '/components');
  */
+fractal.components.set('path', path.join(__dirname, 'components'));
 
-fractal.components.set('path', __dirname + '/components');
 /*
  * Tell Fractal where to look for layout.
  */
