@@ -1,0 +1,5 @@
+Title: "A simple blockquote component"
+status: wip
+context:
+  text: "This is a Blockquotes"
+  citation: "Mahatma Gandhi"
