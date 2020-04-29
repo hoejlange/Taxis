@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Atoms / Icons / Dialog</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.6,6.50588235 L5.6,15.5411765 L8.8,15.5411765 L8.8,17.0470588 L10.9336,15.5411765 L18.4,15.5411765 L18.4,6.50588235 L5.6,6.50588235 Z M7.2,20.0588235 L7.2,17.0470588 L5.6,17.0470588 C4.7176,17.0470588 4,16.3709176 4,15.5411765 L4,6.50588235 C4,5.67538824 4.7176,5 5.6,5 L18.4,5 C19.2824,5 20,5.67538824 20,6.50588235 L20,15.5411765 C20,16.3709176 19.2824,17.0470588 18.4,17.0470588 L11.4664,17.0470588 L7.2,20.0588235 Z" id="path-1"></path>
+    </defs>
+    <g id="Atoms-/-Icons-/-Dialog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="↳-🎨Color" fill="#497B7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

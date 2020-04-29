@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Atoms / Icons / Radio - on</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,3 C16.9705627,3 21,7.02943725 21,12 C21,16.9705627 16.9705627,21 12,21 C7.02943725,21 3,16.9705627 3,12 C3,7.02943725 7.02943725,3 12,3 Z M12,8.4 C10.0117749,8.4 8.4,10.0117749 8.4,12 C8.4,13.9882251 10.0117749,15.6 12,15.6 C13.9882251,15.6 15.6,13.9882251 15.6,12 C15.6,10.0117749 13.9882251,8.4 12,8.4 Z" id="path-1"></path>
+    </defs>
+    <g id="Atoms-/-Icons-/-Radio---on" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="↳-🎨Color" fill="#497B7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

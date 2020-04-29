@@ -1,0 +1,274 @@
+
+
+/* atoms */
+@import "/styling/atoms/badges.css";
+@import "/styling/atoms/blockquote.css";
+@import "/styling/atoms/buttons.css";
+@import "/styling/atoms/icons.css";
+/* molecules */
+/* @import "./molecules/_name_.css"; */
+
+/* organisms */
+/* @import "./organisms/_name_.css"; */
+:root {
+  --primary: #497B7B;
+  --primary-light: #A4BDBD;
+  --primary-dark: #3A6262;
+  --secondary: #FDA472;
+
+  --white: #FFFFFF;
+  --gray-10: #E9EAEA;
+  --gray-20: #D1D3D4
+}
+body {
+  font-family: "open sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+p {
+  color: #333333;
+}
+
+.margin {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+/* positions */
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* COLOR STYLES */
+/* Backgrounds */
+
+.transparent {
+  background-color: transparent;
+}
+
+.primary {
+  background-color: #497B7B;
+}
+
+.primary-dark {
+  background-color: #3A6262;
+}
+
+.primary-light {
+  background-color: #A4BDBD;
+}
+
+.secondary {
+  background-color: #FDA472;
+}
+
+.secondary-dark {
+  background-color: #CB835B;
+}
+
+.secondary-light {
+  background-color: #FED1B9;
+}
+
+.tertiary {
+  background-color: #F3EEE9;
+}
+
+.tertiary-dark {
+  background-color: #C3BFBB;
+}
+
+.tertiary-light {
+  background-color: #F9F6F4;
+}
+
+.gray-100 {
+  background-color: #1B2528;
+}
+
+.gray-80 {
+  background-color: #495153;
+}
+
+.gray-60 {
+  background-color: #767C7E;
+}
+
+.gray-40 {
+  background-color: #A4A8A9;
+}
+
+.gray-20 {
+  background-color: #D1D3D4;
+}
+
+.gray-10 {
+  background-color: #E9EAEA;
+}
+
+.white {
+  background-color: #FFFFFF;
+}
+
+.danger-color {
+  background-color: #B25E5B;
+}
+
+.warning-color {
+  background-color: #CC9C40;
+}
+
+.success-color {
+  background-color: #42835B;
+}
+
+.info-color {
+  background-color: #4C7895;
+}
+
+
+
+/* BORDERS */
+.border-transparent {
+  border: 1px solid transparent;
+}
+
+.border-primary {
+  border: 1px solid #497B7B;
+}
+
+.border-primary-dark {
+  border: 1px solid #3A6262;
+}
+
+.border-primary-light {
+  border: 1px solid #A4BDBD;
+}
+
+.border-secondary {
+  border: 1px solid #FDA472;
+}
+
+.border-secondary-dark {
+  border: 1px solid #CB835B;
+}
+
+.border-secondary-light {
+  border: 1px solid #FED1B9;
+}
+
+.border-tertiary {
+  border: 1px solid #F3EEE9;
+}
+
+.border-tertiary-dark {
+  border: 1px solid #C3BFBB;
+}
+
+.border-tertiary-light {
+  border: 1px solid #F9F6F4;
+}
+
+.border-gray-100 {
+  border: 1px solid #1B2528;
+}
+
+.border-gray-80 {
+  border: 1px solid #495153;
+}
+
+.border-gray-60 {
+  border: 1px solid #767C7E;
+}
+
+.border-gray-40 {
+  border: 1px solid #A4A8A9;
+}
+
+.border-gray-20 {
+  border: 1px solid #D1D3D4;
+}
+
+.border-gray-10 {
+  border: 1px solid #E9EAEA;
+}
+
+.border-danger-color {
+  border: 1px solid #B25E5B;
+}
+
+.border-warning-color {
+  border: 1px solid #CC9C40;
+}
+
+.border-success-color {
+  border: 1px solid #42835B;
+}
+
+.border-info-color {
+  border: 1px solid #4C7895;
+}
+
+/* SHADOWS */
+.shadow-1 {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
+}
+
+.shadow-2 {
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+
+/* Text colors */
+
+.text-dark {
+  color: #333333;
+}
+
+.text-primary {
+  color: #497B7B;
+}
+
+.text-light {
+  color: #FFFFFF;
+}
+
+/* Text styles */
+.text-p-xs-normal {
+  font-size: 10px;
+  text-align: left;
+}
+
+.text-p-s-normal {
+  font-size: 12px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.text-button-normal {
+  font-size: 10px;
+  text-align: left;
+font-weight: 600;
+}
+
+.text-button-centered {
+  font-size: 10px;
+  text-align: center;
+  font-weight: 600;
+}
