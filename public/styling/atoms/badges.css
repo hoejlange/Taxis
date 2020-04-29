@@ -1,3 +1,9 @@
+.badges-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
 .badge-large {
   height: 24px;
   width: fit-content;

@@ -16,6 +16,7 @@
   --primary-dark: #3A6262;
   --secondary: #FDA472;
 
+  --white: #FFFFFF;
   --gray-10: #E9EAEA;
   --gray-20: #D1D3D4
 }
@@ -224,6 +225,14 @@ p {
   border: 1px solid #4C7895;
 }
 
+/* SHADOWS */
+.shadow-1 {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
+}
+
+.shadow-2 {
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
 
 
 /* Text colors */
