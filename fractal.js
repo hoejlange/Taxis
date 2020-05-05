@@ -46,7 +46,7 @@ const myCustomisedTheme = mandelbrot({
     skin: "navy",
     styles: ["default",  "/styling/custom-ui.css"],
     "static": {
-      mount:  path.join(__dirname, "public"), // Theme asset URLs would now look something like: '/public/path/to/file.js'
+      mount: "public", // Theme asset URLs would now look something like: '/public/path/to/file.js'
   }
     // any other theme configuration values here
 });
