@@ -14,10 +14,13 @@
 /* organisms */
 /* @import "./organisms/_name_.css"; */
 :root {
-  --primary: #497B7B;
-  --primary-light: #A4BDBD;
-  --primary-dark: #3A6262;
-  --secondary: #FDA472;
+  --primary: #FDA472;
+  --primary-light: #FED1B9;
+  --primary-dark: #CB835B;
+
+  --secondary: #497B7B;
+  --secondary-light: #A4BDBD;
+  --secondary-dark: #3A6262;
 
   --white: #FFFFFF;
   --gray-10: #E9EAEA;
@@ -88,27 +91,28 @@ h6 {
 }
 
 .primary {
-  background-color: #497B7B;
-}
-
-.primary-dark {
-  background-color: #3A6262;
-}
-
-.primary-light {
-  background-color: #A4BDBD;
-}
-
-.secondary {
   background-color: #FDA472;
 }
 
-.secondary-dark {
+.primary-dark {
   background-color: #CB835B;
 }
 
-.secondary-light {
+.primary-light {
   background-color: #FED1B9;
+}
+
+
+.secondary {
+  background-color: #497B7B;
+}
+
+.secondary-dark {
+  background-color: #3A6262;
+}
+
+.secondary-light {
+  background-color: #A4BDBD;
 }
 
 .tertiary {
