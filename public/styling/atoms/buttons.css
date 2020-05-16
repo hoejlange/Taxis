@@ -57,8 +57,8 @@
 }
 
 
-/* ---------- Text button filled ---------- */
-.btn-filled {
+/* ---------- Text button primary ---------- */
+.btn-primary {
   background-color: var(--primary);
   color: var(--white);
   font-size: 10px;
@@ -66,20 +66,20 @@
   font-weight: 600;
 }
 
-.btn-filled-states:hover {
+.btn-primary-states:hover {
   background-color: var(--primary-light);
 }
 
-.btn-filled-states:active {
+.btn-primary-states:active {
   border: 1px solid var(--secondary);
 }
 
-.btn-filled-states:focus {
+.btn-primary-states:focus {
   background-color: var(--primary-dark);
 }
 
-/* ---------- Text button outlined ---------- */
-.btn-outlined {
+/* ---------- Text button default ---------- */
+.btn-default {
   background-color: transparent;
   border: 1px solid var(--gray-20);
   color: var(--primary);
@@ -88,16 +88,16 @@
   font-weight: 600;
 }
 
-.btn-outlined-states:hover {
+.btn-default-states:hover {
 border: 1px solid var(--primary);
 }
 
-.btn-outlined-states:active {
+.btn-default-states:active {
   border: 1px solid var(--secondary);
 
 }
 
-.btn-outlined-states:focus {
+.btn-default-states:focus {
   border: 1px solid var(--primary);
 }
 
