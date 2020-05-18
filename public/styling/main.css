@@ -1,15 +1,16 @@
 /* particles */
 @import url('./particles/colors.css');
 @import url('./particles/typography.css');
+@import url('./particles/icons.css');
 
 /* atoms */
 @import url('./atoms/badges.css');
-@import url('./atoms/blockquote.css');
 @import url('./atoms/buttons.css');
-@import url('./atoms/icons.css');
+@import url('./atoms/form.css');
 
 /* molecules */
-/* @import "./molecules/_name_.css"; */
+@import url('./molecules/filter.css');
+
 
 /* organisms */
 /* @import "./organisms/_name_.css"; */
@@ -18,9 +19,9 @@
   --primary-light: #FED1B9;
   --primary-dark: #CB835B;
 
-  --secondary: #497B7B;
-  --secondary-light: #A4BDBD;
-  --secondary-dark: #3A6262;
+  --secondary: #4A5B79;
+  --secondary-light: #A4ACBB;
+  --secondary-dark: #3B4961;
 
   --white: #FFFFFF;
   --gray-10: #E9EAEA;
@@ -61,9 +62,8 @@ h6 {
   color: #464646;
 }
 
-.margin {
+.margin-sides{
   margin-left: 8px;
-  margin-right: 8px;
 }
 
 
@@ -104,27 +104,27 @@ h6 {
 
 
 .secondary {
-  background-color: #497B7B;
+  background-color: #4A5B79;
 }
 
 .secondary-dark {
-  background-color: #3A6262;
+  background-color: #3B4961;
 }
 
 .secondary-light {
-  background-color: #A4BDBD;
+  background-color: #A4ACBB;
 }
 
 .tertiary {
-  background-color: #F3EEE9;
+  background-color: #F5F6F8;
 }
 
 .tertiary-dark {
-  background-color: #C3BFBB;
+  background-color: #EDEEF1;
 }
 
 .tertiary-light {
-  background-color: #F9F6F4;
+  background-color: #F9FAFB;
 }
 
 .gray-100 {

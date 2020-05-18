@@ -1,4 +1,4 @@
-Title: "Buttons"
+Title: "Default Button"
 context:
   link: "#"
   text-primary: "Primary button"

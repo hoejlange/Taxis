@@ -1,0 +1,9 @@
+.filter {
+height: 32px;
+width: 100%;
+padding-left: 8px;
+padding-right: 8px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}

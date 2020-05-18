@@ -1,0 +1,6 @@
+Title: "Buttons with an icon to the left"
+context:
+  link: "#"
+  text-primary: "Primary button"
+  text-default: "Default button"
+  text-transparent: "Transparent button"
